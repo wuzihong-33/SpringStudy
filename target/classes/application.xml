@@ -4,4 +4,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
+
+<!--<bean id="xmlTest" class="com.service.XmlTest">-->
+<!--        <property name="XmlTest2" ref="XmlTest2"/>-->
+<!--        <property name="k" value="10"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="XmlTest2" class="com.service.XmlTest2">-->
+<!--    </bean>-->
+
 </beans>

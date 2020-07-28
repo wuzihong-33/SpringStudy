@@ -7,6 +7,9 @@
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/applicationContext</file>
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/dispatcher-servlet.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext</file>
+          <file>file://$MODULE_DIR$/src/main/resources/application.xml</file>
         </fileset>
       </configuration>
     </facet>
