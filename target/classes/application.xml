@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        https://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
-
-<!--<bean id="xmlTest" class="com.service.XmlTest">-->
-<!--        <property name="XmlTest2" ref="XmlTest2"/>-->
-<!--        <property name="k" value="10"/>-->
-<!--    </bean>-->
-
-<!--    <bean id="XmlTest2" class="com.service.XmlTest2">-->
-<!--    </bean>-->
+    
+    <context:component-scan base-package="com.I.service"></context:component-scan>
 
 </beans>
+
